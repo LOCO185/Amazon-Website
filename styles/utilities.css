@@ -1,0 +1,219 @@
+/* @@@@@@@@@@@ Variables @@@@@@@@@@@ */
+:root {
+  --ff-primary: "Amazon Ember", Arial, sans-serif;
+
+  --clr-primary: #0f1111;
+  --clr-link: #057794;
+  --clr-link2: #007185;
+  --clr-bordo: #b12704;
+  --clr-light: white;
+  --clr-light2: #cdcdcd;
+  --clr-light3: #ffffff;
+  --clr-light4: #565659;
+  --clr-light5: #565959;
+  --clr-border: rgb(214, 209, 209);
+  --clr-secondary: #febd69;
+  --clr-third: #f3a847;
+  --clr-fourth: #ff9000;
+  --clr-header: #232f3e;
+  --clr-dark1: #131921;
+
+  --fs-small: 12px;
+  --fs-medium: 14px;
+
+}
+/* ################################   <body media>   ################################### */
+@media only screen and (max-width: 768px) {
+  .body {
+    max-width: 375px;
+    width: 250px;
+    overflow: hidden;
+  }
+  .container1 {
+    overflow-x: hidden;
+  }
+  .black-friday {
+    display: block;
+  }
+  #container {
+    height: 140px;
+  }
+  #nav-bar {
+    display: flex;
+    justify-content: start;
+    max-width: 300px;
+    overflow: hidden;
+  }
+  .wrapper {
+    display: flex;
+  }
+}
+/* ############ Display None ############ */
+@media only screen and (max-width: 768px) {
+  .account,
+  .orders,
+  .menu,
+  .left-side,
+  .third-menu,
+  .small-menu,
+  .nav-logo,
+  .explain,
+  .tr-media,
+  .list-media,
+  .small-pics,
+  .voted,
+  .seprator,
+  .answered,
+  .import,
+  .a-declarative {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav-left {
+    max-width: 80px;
+  }
+  .nav-fill {
+    max-width: 300px;
+    transform: translateY(70px);
+    margin-right: 60px;
+    z-index: 10;
+    background-color: white;
+    height: 50px;
+  }
+  .cart_load{
+    transform: translateX(-320px);
+  }
+}
+@media only screen and (max-width: 768px) {
+  #page-content {
+    display: block;
+    max-width: 300px;
+  }
+}
+/* big picture */
+@media only screen and (max-width: 768px) {
+  .big_image {
+    margin: 1.25rem;
+    width: 320px;
+    height: 320px;
+    background-image: url("/assets/images/bigpic1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 320px 320px;
+    zoom: 1.05;
+    margin-top: 130px;
+  }
+  #big_image1 {
+    width: 320px;
+  }
+  .buy_product {
+    width: 550px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .black-friday {
+    position: relative;
+    margin-left: -465px;
+    margin-top: 0;
+    width: 320px;
+  }
+  #mobile1 {
+    position: absolute;
+    font-size: 14px;
+    top: 20px;
+    left: 5px;
+    line-height: 18px;
+  }
+  .stars {
+    position: absolute;
+    top: 0;
+    left: 380px;
+  }
+  .pokemon_link {
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    left: 5px;
+  }
+  .right_notes {
+    position: absolute;
+    top: 460px;
+    width: 550px;
+  }
+  .table {
+    position: absolute;
+    top: 1390px;
+    width: 350px;
+    left: 0;
+  }
+  #feature-bullets {
+    position: absolute;
+    width: 350px;
+    top: 1600px;
+    left: 20px;
+  }
+  .sepirate_line,
+  .main-content {
+    border: none;
+  }
+  .right_sec {
+    border: none;
+  }
+  .right_notes {
+    max-width: 280px;
+  }
+  .container2 {
+    margin-top: 1350px;
+  }
+  .container2 h2{
+    margin-left: 20px;
+  }
+}
+/* Scroll hidden */
+/* @media only screen and (max-width: 768px) {
+  .body::-webkit-scrollbar{
+    visibility: hidden;
+}
+} */
+/*
+  .main-content {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-bottom: 2.5rem;
+  }
+} */
+/* All in */
+/* @media only screen and (max-width:768px) {
+  .allin{
+    display: grid;
+    width: 300px;
+    margin: 0 auto;
+    grid-template-areas:
+        "friday" 
+        "br1"
+        "big img"
+        "right-section";
+    grid-template-columns: min-content max-content;
+  }
+  .black-friday{
+    grid-area: friday;
+    min-width: 250px;
+    position: relative;
+    z-index: 2;
+  }
+  .pokemon_normal_sub{
+    grid-area: br1;
+    min-width: 250px;
+  }
+  .big_image{
+    grid-area: big img;
+    min-width: 250px;
+  }
+  .right_notes{
+    grid-area: right-section;
+    min-width: 250px;
+  }
+} */
