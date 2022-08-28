@@ -42,17 +42,3 @@ function clearImg() {
 //     left.scrollLeft = 1000;
 // }
 
-// const span = document.getElementsByTagName('span');
-// const div = document.getElementsByTagName('div');
-// let j = 0;
-// arrow1[1].onclick = () => {
-//     j++;
-//     for(let i of div) {
-//         if(j == 0) {i.style.left = "0px";}
-//         if(j == 1) {i.style.left = "-740px";}
-//         if(j == 2) {i.style.left = "-1480px";}
-//         if(j == 3) {i.style.left = "-2220px";}
-//         if(j == 4) {i.style.left = "-2960px";}
-//         if(j > 4) {j = 4;}
-//     }
-// }
