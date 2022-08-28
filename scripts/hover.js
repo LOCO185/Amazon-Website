@@ -31,14 +31,4 @@ function clearImg() {
     img.src = "";
     img.style.visibility = "hidden";
 }
-// ################Scroll###########################
-// function scrolLeft() {
-//     const left = document.getElementById("arrow1");
-//     left.scrollLeft = 0;
-// }
-
-// function scrolRight() {
-//     const left = document.getElementById("arrow2");
-//     left.scrollLeft = 1000;
-// }
 
